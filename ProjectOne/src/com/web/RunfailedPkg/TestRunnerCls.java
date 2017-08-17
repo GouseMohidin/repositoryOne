@@ -13,8 +13,9 @@ public class TestRunnerCls {
 
 		TestNG runner = new TestNG();
 		List<String> list = new ArrayList<String>();
-        list.add("");
+        list.add("C:/Users/Admin/git/repositoryOne/ProjectOne/test-output/Suite/testng-failed.xml");
 		runner.setTestSuites(list);
+		runner.run();
 	}
 
 }

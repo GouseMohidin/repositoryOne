@@ -24,7 +24,7 @@ public class ParallelExc {
 			 driver=new ChromeDriver();
 		 driver.navigate().to("https://chaipoint.com/");
 		 driver.manage().window().maximize();
-		 driver.findElement(By.xpath("//input[@type='checkbox']")).click();
+//		 driver.findElement(By.xpath("//input[@type='checkbox']")).click();
 //		 Assert.assertTrue(false);
 	}
 	@Test
@@ -32,7 +32,7 @@ public class ParallelExc {
 	 	 driver=new FirefoxDriver();
 		 driver.navigate().to("https://www.wikipedia.org/");
 		 driver.manage().window().maximize();
-		 driver.findElement(By.xpath("input[@type='checkbox']")).click(); 
+//		 driver.findElement(By.xpath("input[@type='checkbox']")).click(); 
 		
 	}
 	
